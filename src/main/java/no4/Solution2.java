@@ -1,4 +1,4 @@
-package main.java.no4;
+package no4;
 
 public class Solution2 {
 
