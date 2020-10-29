@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
 
-public class Solution2 {
+public class SolutionStandard {
     static {
         try {
             String content = Files.readString(Paths.get("E:\\code-repo\\leet-code\\src\\main\\resources\\no1.txt"), StandardCharsets.UTF_8);
@@ -25,8 +25,8 @@ public class Solution2 {
     public static int[] src;
 
     public static void main(String[] args) {
-        int[] x = new Solution2().twoSum(
-                Solution2.src
+        int[] x = new SolutionStandard().twoSum(
+                SolutionStandard.src
                 , 16021
         );
         System.out.println(x[0] + " " + x[1]);
