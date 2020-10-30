@@ -48,7 +48,7 @@ public class Solution1 {
             }
             return result;
         }
-        if (l1.next == null && l2.next != null) {
+        if (l1.next == null) {
             l1.next = l2.next;
             return addTwoNumbers(l1.next, null);
         }
